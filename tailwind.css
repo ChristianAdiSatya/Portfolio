@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-fixed{
+    @apply fixed py-0 z-[9999] bg-white bg-opacity-[12%] backdrop-blur-[4px] shadow-md md:right-4;
+}
+
+.hamburger{
+    @apply w-[30px] h-[2px] bg-slate-900 my-2 block md:right-4;
+}
+
+.hamburger-mid{
+    @apply w-[30px] h-[2px] bg-slate-900 my-2 block md:right-4;
+}
+
+.hamburger-active > span:nth-child(1) {
+    @apply  -rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+    @apply scale-0
+}
+
+.hamburger-active > span:nth-child(3) {
+    @apply  rotate-45;
+}
+
+.blink-border {
+    border-right: 2px solid;
+    animation: blink 0.7s;
+    animation-iteration-count: infinite;
+
+    height: 100%;
+}
+
+@keyframes blink { 50% { border-color: transparent;} }
+

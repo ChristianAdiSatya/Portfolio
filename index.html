@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <!-- Logo Icon -->
+    <link rel="icon" href="asset/Pict/icon/port-brand-logo.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!--Icon Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Adi Satya | Portfolio</title>
+</head>
+<body class="bg-gradient-to-tr  to-primary to-1%  from-smoke-white from-80% bg-no-repeat md:max-w-full">
+    <!--Header-->
+    <header class="absolute top-0 left-0 right-0 w-full flex items-center z-10 max-w-full">
+        <div class="container px-4 max-w-full md:max-w-full lg:px-20 lg:max-w-full xl:max-w-full xl:pr-20">
+            <div class="flex items-center justify-between relative">
+                <div class="flex-row justify-between">
+                    <a href="#about" class="block py-4 lg:py-2">
+                        <h3 class="font-oswald uppercase text-2xl tracking-normal text-slate-800 duration-500">
+                            whoami
+                        </h3>
+                    </a>
+                </div>
+                <div class="flex items-center font-oswald uppercase tracking-wide lg:tracking-widest">
+                    <!-- Side Button -->
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 md:right-4 lg:hidden">
+                        <span class="hamburger transition duration-300 ease-in-out origin-top-right"></span>
+                        <span class="hamburger-mid transition duration-300 ease-in-out"></span>
+                        <span class="hamburger transition duration-300 ease-in-out origin-bottom-right"></span>
+                    </button>
+                    <!-- Navbar -->
+                    <nav id="nav-menu" class="hidden absolute py-[10px] shadow-xl right-4 rounded-lg top-full max-w-[260px] w-full bg-white md:right-4 md:px-8 lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:right-0 xl:max-w-full xl:w-full">
+                        <ul class="block md:gap-8 lg:flex lg:gap-5 xl:gap-16">
+                            <li class="group">
+                                <a href="#about" class="py-2 px-8 flex md:py-2 lg:py-2 md:mx-0 lg:px-0 group-hover:text-primary hover:duration-300">
+                                    About
+                                </a>
+                            </li>
+                            <li class="group">
+                                <a href="#skills" class="py-2 px-8 flex md:py-2 lg:py-2 md:mx-0 lg:px-0 group-hover:text-primary hover:duration-300">
+                                    Skills
+                                </a>
+                            </li>
+                            <li class="group">
+                                <a href="#project" class="py-2 px-8 flex md:py-2 lg:py-2 md:mx-0 lg:px-0 group-hover:text-primary hover:duration-300">
+                                    Projects
+                                </a>
+                            </li>
+                            <li class="group">
+                                <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDExMzEyMjc5NjE0ODQy?igsh=cDloejdheGI0OHE4" target="_blank" class="py-2 px-8 flex md:py-2 md:mx-0 lg:py-2 lg:px-0 group-hover:text-primary hover:duration-300">
+                                    Documentation
+                                </a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="py-2 px-8 flex md:py-2 lg:py-2 md:mx-0 lg:px-0 group-hover:text-primary hover:duration-300">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Header End-->
+
+    <!--About-->
+    <section id="about">
+        <div class="container md:px-[72px] lg:px-36 lg:justify-around lg:justify-items-center max-w-full mx-auto md:max-w-full md:mx-auto lg:max-w-full lg:mx-auto">
+            <div class="flex flex-col gap-5 md:flex-row lg:flex-row">
+                <!--Image-->
+                <div class="items-center self-center mt-24 md:w-1/2 lg:w-1/2 lg:mt-36">
+                    <img src="/asset/Pict/IMG_4306.jpg" alt="about-pict" class="rounded-full size-[225px] md:size-[325px] lg:size-[400px]">
+                </div>
+                <!--Content-->
+                <div class="px-4 md:mt-[100px] lg:mt-[192px] md:w-1/2 lg:w-1/2 lg:px-0">
+                    <div class="font-oswald">
+                        <h3 class="text-[45px] lg:text-5xl text-slate-800">
+                            Hi, it's 
+                            <span class="text-primary tracking-wider font-normal lg:font-semibold">
+                                <b>Christ</b>
+                            </span>
+                        </h3>
+                        <h5 class="text-3xl mt-2 lg:text-4xl lg:mt-4 text-slate-800">
+                            I'm a 
+                                <span id="typewriter" class="text-primary blink-border border-primary"></span>
+                        </h5>
+                        <p class="text-sm text-slate-700 mt-2 lg:text-base tracking-wide font-normal">
+                            Hi everyone, my name is Ignatius Christian Adi Satya, you can call me 
+                            <span class="text-primary">
+                                Christian.
+                            </span>I live in Semarang, Central Java. Now let's see at the portfolio that I have created.
+                        </p>
+                    </div>
+                    <!--Icon-->
+                    <div class="flex text-xl mt-5 gap-4 lg:gap-3">
+                        <a href="https://api.whatsapp.com/send?phone=6281392991442" target="_blank">
+                            <i class="fa-brands fa-whatsapp text-slate-400 hover:text-green-600 hover:duration-500"></i>
+                        </a>
+                        <a href="https://t.me/nocmntt" target="_blank">
+                            <i class="fa-brands fa-telegram text-slate-400 hover:text-primary hover:duration-500"></i>
+                        </a>
+                        <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=casatya82@gmail.com" target="_blank">
+                            <i class="fa-regular fa-envelope text-slate-400 hover:text-red-700 hover:duration-500"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank">
+                            <i class="fa-brands fa-github text-slate-400 hover:text-black hover:duration-500"></i>
+                        </a>
+                    </div>
+                    <!--Button-->
+                    <div class="font-oswald mt-6 border rounded-lg h-10 w-28 py-[6px] text-center text-primary bg-transparent ring-[1.2px] ring-primary hover:bg-gradient-to-tr from-[#019FD6] to-primary duration-500 hover:text-white hover:ring-0 hover:shadow-md hover:cursor-pointer">
+                        <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=casatya82@gmail.com" target="_blank">
+                            <div class="h-10 w-28">
+                                Hire Me!
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About End-->
+
+    <!--Skills-->
+    <section id="skills">
+        <div class="container w-full max-w-full font-oswald">
+            <!-- Title -->
+            <div class="flex flex-col text-center justify-center mt-24 lg:mt-32">
+                <h3 class="text-primary text-3xl lg:text-4xl">
+                    Skills
+                </h3>
+            </div>
+            <!-- Card -->
+            <div class="flex flex-col mt-20 px-4 md:flex-row md:px-[72px] md:gap-4 md:justify-center lg:flex-row lg:gap-5 lg:px-36">
+                <div class="flex-wrap mb-5 md:mt-10 md:w-1/2 lg:mt-10 lg:w-1/4">
+                    <div class="border bg-white rounded-lg w-full shadow-lg px-4">
+                        <div class="text-center justify-center -mt-[28px]">
+                            <i class="fa-solid fa-code text-slate-500 text-[56px] animate-scalingUp"></i>
+                            <h4 class="mt-5 text-2xl text-primary">
+                                Web Development
+                            </h4>
+                            <p class="mt-2 text-[15px] text-slate-700 font-light tracking-wider">
+                                Working on web development services, web creation, maintenance website, Coder.
+                            </p>
+                            <svg class="rc-progress-line mb-8 pt-5 px-4" viewBox="0 0 100 1" preserveAspectRatio="none">
+                                <path class="rc-progress-line-trail" d="M 0.5,0.5
+                                    L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                                <path class="rc-progress-line-path" d="M 0.5,0.5
+                                    L 99.5,0.5" stroke-linecap="round" stroke="#019FD6" stroke-width="1" fill-opacity="0"
+                                    style="stroke-dasharray: 85px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="flex-wrap mt-10 mb-5 md:w-1/2 lg:w-1/4">
+                    <div class="border bg-white rounded-lg w-full shadow-lg px-4">
+                        <div class="text-center justify-center -mt-[28px]">
+                            <i class="fa-solid fa-screwdriver-wrench text-slate-500 text-[56px] animate-scalingUp"></i>
+                            <h4 class="mt-5 text-2xl text-primary">
+                                Hardware Services
+                            </h4>
+                            <p class="mt-2 text-[15px] text-slate-700 font-light tracking-wider">
+                                Services for laptop/smartphones, such as replacing LCD, replacing batteries, RAM.
+                            </p>
+                            <svg class="rc-progress-line mb-8 pt-5 px-4" viewBox="0 0 100 1" preserveAspectRatio="none">
+                                <path class="rc-progress-line-trail" d="M 0.5,0.5
+                                    L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                                <path class="rc-progress-line-path" d="M 0.5,0.5
+                                    L 99.5,0.5" stroke-linecap="round" stroke="#019FD6" stroke-width="1" fill-opacity="0"
+                                    style="stroke-dasharray: 90px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="flex-wrap mt-10 mb-5 md:w-1/2 lg:w-1/4">
+                    <div class="border bg-white rounded-lg w-full shadow-lg px-4">
+                        <div class="text-center justify-center -mt-[28px]">
+                            <i class="fa-solid fa-terminal text-slate-500 text-[56px] animate-scalingUp"></i>
+                            <h4 class="mt-5 text-2xl text-primary">
+                                Software Services
+                            </h4>
+                            <p class="mt-2 text-[15px] text-slate-700 font-light tracking-wider">
+                                Software services for laptop/smartphones, custom ROM, bootloop, Windows Instalation.
+                            </p>
+                            <svg class="rc-progress-line mb-8 pt-5 px-4" viewBox="0 0 100 1" preserveAspectRatio="none">
+                                <path class="rc-progress-line-trail" d="M 0.5,0.5
+                                    L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                                <path class="rc-progress-line-path" d="M 0.5,0.5
+                                    L 99.5,0.5" stroke-linecap="round" stroke="#019FD6" stroke-width="1" fill-opacity="0"
+                                    style="stroke-dasharray: 90px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="flex-wrap mt-10 mb-5 md:w-1/2 lg:w-1/4">
+                    <div class="border bg-white rounded-lg w-full shadow-lg px-4">
+                        <div class="text-center justify-center -mt-[28px]">
+                            <i class="fa-solid fa-video text-slate-500 text-[56px] animate-scalingUp"></i>
+                            <h4 class="mt-5 text-2xl text-primary">
+                                CCTV Maintenance
+                            </h4>
+                            <p class="mt-2 text-[15px] text-slate-700 font-light tracking-wider">
+                                CCTV Instalation , Maintenance, Trounleshot, Security System, Alarm System, Access Door Lock.
+                            </p>
+                            <svg class="rc-progress-line mb-8 pt-5 px-4" viewBox="0 0 100 1" preserveAspectRatio="none">
+                                <path class="rc-progress-line-trail" d="M 0.5,0.5
+                                    L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                                <path class="rc-progress-line-path" d="M 0.5,0.5
+                                    L 99.5,0.5" stroke-linecap="round" stroke="#019FD6" stroke-width="1" fill-opacity="0"
+                                    style="stroke-dasharray: 90px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Skills End-->
+
+    <!-- Project -->
+    <section id="project">
+        <div class="container mt-10 lg:mt-40 max-w-full mx-auto">
+            <div class="flex items-center justify-center bg-transparent max-w-full">
+                <div class="mx-auto max-w-full px-6 font-oswald">
+                    <h3 class="text-primary text-center text-3xl lg:text-4xl mb-10">
+                        Latest Project
+                    </h3>
+                    <div class="flex [&:hover>div]:w-[35px] [&>div:hover]:w-[200px] md:[&:hover>div]:w-20 md:[&>div:hover]:w-[380px] lg:[&:hover>div]:w-[90px] lg:[&>div:hover]:w-[680px] lg:gap-1">
+                        <!-- Image -->
+                        <div class="rounded-lg lg:rounded-xl group relative h-96 w-[200px] md:h-[420px] md:w-[380px] lg:h-[500px] lg:w-[680px] cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-1000 object-cover">
+                            <img class="h-full w-full object-cover transition-all grayscale-[78%] group-hover:grayscale-0 scale-125 group-hover:scale-[1.12] group-hover:rounded-lg duration-800" src="asset/Pict/Battery&Keyboard-2024-04-04.jpg" alt="Image-1"/>
+                            <div class="invisible absolute inset-0 bg-gradient-to-b from-slate-400/20 to-black group-hover:visible group-hover:rounded-lg">
+                                <!-- Content -->
+                                <div class="absolute inset-x-5 bottom-6 hover:duration-1800">
+                                    <div class="flex gap-3 text-white justify-between">
+                                        <div>
+                                            <p class="text-xl text-gray-100 font-bold">
+                                                Laptop Services
+                                            </p>
+                                            <p class="text-sm text-gray-300 tracking-wide">
+                                                Battery & Keyboard
+                                            </p>
+                                            <p class="text-sm text-slate-700 font-light">
+                                                04 / 04 / 2024
+                                            </p>
+                                        </div>
+                                        <div class="flex-row hidden lg:block">
+                                            <i class="fa-regular fa-keyboard text-white text-[12px] lg:text-3xl"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Image -->
+                        <div class="rounded-lg lg:rounded-xl group relative h-96 w-[35px] md:h-[420px] md:w-[80px] hover:w-[30rem] lg:h-[500px] lg:w-[90px] cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-1000">
+                            <img class="h-full object-cover transition-all grayscale-[78%] group-hover:grayscale-0 scale-125 group-hover:scale-[1.12] duration-800" src="asset/Pict/Battery&LCD-Replacement-2024-10-14.jpg" alt="Image-2" />
+                            <div class="invisible absolute inset-0 bg-gradient-to-b from-slate-400/20 to-black group-hover:visible">
+                                <!-- Content -->
+                                <div class="absolute inset-x-5 bottom-6 hover:duration-1800">
+                                    <div class="flex gap-3 text-white justify-between">
+                                        <div>
+                                            <p class="text-xl text-gray-100 font-bold">
+                                                Phone Services
+                                            </p>
+                                            <p class="text-sm text-gray-300 tracking-wide">
+                                                Battery & LCD
+                                            </p>
+                                            <p class="text-sm text-slate-700 font-light">
+                                                14 / 10 / 2024
+                                            </p>
+                                        </div>
+                                        <div class="flex-row hidden lg:block">
+                                            <i class="fa-solid fa-car-battery text-white text-[12px] lg:text-3xl"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Image -->
+                        <div class="rounded-lg lg:rounded-xl group relative h-96 w-[35px] md:h-[420px] md:w-[80px] hover:w-[30rem] lg:h-[500px] lg:w-[90px] cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-1000">
+                            <img class="h-full object-cover transition-all grayscale-[78%] group-hover:grayscale-0 scale-125 group-hover:scale-[1.12] duration-800" src="asset/Pict/LCD-Backdoor-Flexible-01-12-2024.jpg" alt="Image-3" />
+                            <div class="invisible absolute inset-0 bg-gradient-to-b from-slate-400/20 to-black group-hover:visible">
+                                <!-- Content -->
+                                <div class="absolute inset-x-5 bottom-6 hover:duration-1800">
+                                    <div class="flex gap-3 text-white justify-between">
+                                        <div>
+                                            <p class="text-xl text-gray-100 font-bold">
+                                                Phone Services
+                                            </p>
+                                            <p class="text-sm text-gray-300 tracking-wide">
+                                                LCD, Backdoor & Flexible
+                                            </p>
+                                            <p class="text-sm text-slate-700 font-light">
+                                                01 / 12 / 2024
+                                            </p>
+                                        </div>
+                                        <div class="flex-row hidden lg:block">
+                                            <i class="fa-solid fa-mobile-button text-white text-[12px] lg:text-3xl"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Image -->
+                        <div class="rounded-lg lg:rounded-xl group relative h-96 w-[35px] md:h-[420px] md:w-[80px] hover:w-[30rem] lg:h-[500px] lg:w-[90px] cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-1000">
+                            <img class="h-full object-cover transition-all grayscale-[78%] group-hover:grayscale-0 scale-125 group-hover:scale-[1.12] duration-800" src="asset/Pict/CCTV-Installation-2023-05-22.jpg" alt="Image-4" />
+                            <div class="invisible absolute inset-0 bg-gradient-to-b from-slate-400/20 to-black group-hover:visible">
+                                <!-- Content -->
+                                <div class="absolute inset-x-5 bottom-6 hover:duration-1800">
+                                    <div class="flex gap-3 text-white justify-between">
+                                        <div>
+                                            <p class="text-xl text-gray-100 font-bold">
+                                                Installation
+                                            </p>
+                                            <p class="text-sm text-gray-300 tracking-wide">
+                                                CCTV Installation
+                                            </p>
+                                            <p class="text-sm text-slate-700 font-light">
+                                                22 / 05 / 2023
+                                            </p>
+                                        </div>
+                                        <div class="flex-row hidden lg:block">
+                                            <i class="fa-solid fa-gear text-white text-[12px] lg:text-3xl"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Image -->
+                        <div class="rounded-lg lg:rounded-xl group relative h-96 w-[35px] md:h-[420px] md:w-[80px] hover:w-[30rem] lg:h-[500px] lg:w-[90px] cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-1000">
+                            <img class="h-full object-cover transition-all grayscale-[78%] group-hover:grayscale-0 scale-125 group-hover:scale-[1.12] duration-800" src="asset/Pict/Usb-Port-Repair-2022-12-22.jpg" alt="Image-4" />
+                            <div class="invisible absolute inset-0 bg-gradient-to-b from-slate-400/20 to-black group-hover:visible">
+                                <!-- Content -->
+                                <div class="absolute inset-x-5 bottom-6 hover:duration-1500">
+                                    <div class="flex gap-3 text-white justify-between">
+                                        <div>
+                                            <p class="text-xl text-gray-100 font-bold">
+                                                Phone Services
+                                            </p>
+                                            <p class="text-sm text-gray-300 tracking-wide">
+                                                USB Connector
+                                            </p>
+                                            <p class="text-sm text-slate-700 font-light">
+                                                22 / 12 / 2022
+                                            </p>
+                                        </div>
+                                        <div class="flex-row hidden lg:block">
+                                            <i class="fa-brands fa-usb text-white text-[12px] lg:text-3xl"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Project End -->
+
+    <!--Contact-->
+    <section id="contact">
+        <div class="container md:1/2 md:px-[72px] md:max-w-full md:mx-auto md:justify-between lg:px-36 lg:mt-10 lg:justify-between justify-items-center lg:w-full lg:max-w-full lg:mx-auto font-oswald">
+            <!-- Title -->
+            <div class="flex flex-col gap-10 lg:flex-row">
+                <h3 class="text-3xl lg:text-4xl text-primary items-center text-center mt-56">
+                    Get In Touch
+                </h3>
+            </div>
+            <div class="flex flex-col px-4 md:flex-row lg:flex-row">
+                <!-- embed -->
+                <div class="items-center justify-items-center max-w-full mx-auto mt-10">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.289586887708!2d110.3900778!3d-6.9751202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70f5e8c04e854d%3A0x7d5c46b05a57f440!2sSerra%20Services!5e0!3m2!1sid!2sid!4v1732836392672!5m2!1sid!2sid" height="400" width="200"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="h-[400px] w-[350px] rounded-lg shadow-lg lg:w-[620px] lg:h-[430px]"></iframe>
+                </div>
+                <!-- Content -->
+                <div class="mt-9 pl-4 text-right">
+                    <h4 class="text-2xl lg:text-3xl text-slate-800 tracking-normal">
+                        Semarang, Central Java, Indonesia.
+                    </h4>
+                    <p class="text-lg lg:text-xl text-primary mt-3 lg:mt-8">
+                        Serra Services
+                    </p>
+                    <a href="https://maps.app.goo.gl/J46XciDD8cbNCoMg6" target="_blank" class="text-[14px] lg:text-[15px] text-slate-700 hover:text-slate-900 tracking-wide font-light">
+                        Jl. Anjasmoro Raya No.25 No.25, Tawangmas, Semarang Barat, Semarang City, Central Java 50144
+                    </a>
+                    <p class="text-lg lg:text-xl text-primary mt-3 lg:mt-8">
+                        Call Directly :
+                    </p>
+                    <p class="text-[24px] text-slate-700 inline-flex hover:text-slate-900 tracking-wide">
+                        <a href="https://api.whatsapp.com/send?phone=6281392991442" target="_blank">
+                            (+62) 81392991442
+                        </a>
+                    </p>
+                    <p class="text-lg lg:text-xl text-primary mt-3 lg:mt-8">
+                        Email :
+                    </p>
+                    <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=casatya82@gmail.com" target="_blank" class="text-[14px] lg:text-[15px] text-slate-700 hover:text-slate-900 tracking-wide font-light">
+                        casatya82@gmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Icon Section -->
+        <div class="container mt-12 mb-12 max-w-full">
+            <div class="border-b border-primary relative">
+                <div class="absolute top-0  transform -translate-y-1/2 left-0 right-0 max-w-36 lg:max-w-48 mx-auto">
+                    <div class="bg-smoke-white text-slate-400 text-xl text-center justify-items-center space-x-2 lg:space-x-4">
+                        <a href="https://www.facebook.com/share/14CJ2aKuMs/?mibextid=LQQJ4d" target="_blank">
+                            <i class="fa-brands fa-facebook hover:text-primary duration-300" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-shine"></i>
+                        </a>
+                        <a href="https://instagram.com/whoammi_" target="_blank">
+                            <i class="fa-brands fa-instagram hover:text-pink-600 duration-300" data-aos="fade-right" data-aos-offset="280" data-aos-duration="1400" data-aos-easing="ease-in-shine"></i>
+                        </a>
+                        <a href="https://x.com" target="_blank">
+                            <i class="fa-brands fa-x-twitter hover:text-black duration-300" data-aos="fade-left" data-aos-offset="280" data-aos-duration="1400" data-aos-easing="ease-in-shine"></i>
+                        </a>
+                        <a href="https://id.linkedin.com/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in hover:text-slate-900 duration-300" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-shine"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact End-->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container md:px-[72px] md:max-w-full lg:px-36 lg:w-full lg:max-w-full font-oswald">
+            <div class="flex flex-col">
+                <!-- Title -->
+                <div class="px-4 mt-5">
+                    <h4 class="text-3xl text-slate-800">
+                        Let's Begin
+                    </h4>
+                </div>
+                <!-- Content -->
+                <div class="px-4 mt-[6px] lg:mt-2 tracking-wide font-light">
+                    <p class="text-sm text-slate-700">
+                        Every project starts with a chat. Let's <span class="text-primary">talk</span>, get a <span class="text-primary">deal</span>, feel <span class="text-primary">happy</span>.
+                    </p>
+                </div>
+                <!-- Button -->
+                <div class="px-4 mt-8 mb-10">
+                    <div class="border rounded-lg h-10 w-28 py-[8px] text-primary bg-transparent ring-[1.2px] ring-primary duration-500 hover:text-white hover:ring-0 hover:shadow-md hover:cursor-pointer hover:bg-gradient-to-tr from-[#019FD6] to-primary">
+                        <a href="https://api.whatsapp.com/send?phone=6281392991442" target="_blank">
+                            <div class="h-10 w-28 text-center text-sm">
+                                Chat Me
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Title -->
+            <div class="flex flex-col text-right lg:w-full lg:max-w-full">
+                <div class="px-4 mt-5">
+                    <h4 class="text-3xl text-slate-800">
+                        Looking for <span class="text-primary">CCTV?</span>
+                    </h4>
+                </div>
+                <!-- Content -->
+                <div class="px-4 mt-[6px] lg:mt-2 tracking-wide font-light">
+                    <p class="text-sm text-slate-700">
+                        <span class="text-sm text-primary">Ip</span> Camera, <span class="text-sm text-primary">HD</span> Camera, DVR/NVR, Access Door Lock, Finger Print.
+                    </p>
+                    <p class="text-sm text-slate-700">
+                        <span class="text-sm text-primary">Ready</span> what you need.
+                    </p>
+                </div>
+                <!-- Icon -->
+                <div class="text-slate-400 text-right text-xl px-4 mt-5 mb-10 lg:mt-8">
+                    <div class="flex justify-end gap-3 lg:gap-3">
+                        <a href="https://api.whatsapp.com/send?phone=6281225775135" target="_blank">
+                            <i class="fa-brands fa-whatsapp  hover:text-green-600 hover:cursor-pointer duration-300"></i>
+                        </a>
+                        <a href="https://facebook.com/serra.cctv" target="_blank">
+                            <i class="fa-brands fa-facebook  hover:text-primary hover:cursor-pointer duration-300"></i>
+                        </a>
+                        <a href="https://www.instagram.com/serra_cctv?igsh=dDNzMGp3ZmJsa3Fm" target="_blank">
+                            <i class="fa-brands fa-instagram hover:text-pink-700 hover:cursor-pointer duration-300"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Content -->
+        <div class="container bg-[#ebebeb] text-center text-sm justify-center w-full max-w-full py-4 font-oswald font-normal tracking-wide">
+            © 2024 Copyright Christ | 
+            <span class="text-sky-500">
+                <a href="https://tailwindcss.com" target="_blank">
+                    Tailwindcss
+                </a>
+                <span class="text-black">
+                    | 
+                    <a href="https://serracctv.com" target="_blank">
+                        <span class="text-red-950">
+                            Serra<span class="text-white">
+                                    CCTV
+                                </span>
+                        </span>
+                    </a>
+                </span>
+            </span>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Javascript -->
+    <script src="dist/js/script.js"></script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: false,
+        });
+    </script>
+
+</body>
+</html>
